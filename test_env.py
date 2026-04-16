@@ -1,0 +1,5 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+print("GOOGLE_API_KEY:", os.environ.get("GOOGLE_API_KEY", "NOT SET"))
+print("CWD:", os.getcwd())
