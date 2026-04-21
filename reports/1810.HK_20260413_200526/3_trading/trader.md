@@ -3,7 +3,7 @@ The analysis of 1810.HK (Xiaomi Corporation) reveals a significant divergence be
 ### Fundamental Risks
 The bear case hinges on two critical financial structures: **inventory management** and **liquidity quality**. Carrying over 60 billion in inventory during a period of contracting global smartphone demand (down 6%) is a high-risk strategy. In the fast-paced consumer electronics sector, excess inventory leads to aggressive discounting and massive write-downs, which can rapidly erode profit margins. 
 
-Furthermore, the "cash fortress" argument is undermined by nearly 100 billion in accounts payable. This creates a reliance on supplier credit that acts as a form of interest-free leverage. However, this leverage becomes a liability if sales cycles slow or if suppliers tighten credit terms due to macroeconomic instability. In the context of the EV sector¡ªa market currently defined by aggressive price wars¡ªXiaomi is entering a capital-intensive "bloodbath" that will likely demand significant cash outlays with uncertain near-term returns on investment.
+Furthermore, the "cash fortress" argument is undermined by nearly 100 billion in accounts payable. This creates a reliance on supplier credit that acts as a form of interest-free leverage. However, this leverage becomes a liability if sales cycles slow or if suppliers tighten credit terms due to macroeconomic instability. In the context of the EV sectorâ€”a market currently defined by aggressive price warsâ€”Xiaomi is entering a capital-intensive "bloodbath" that will likely demand significant cash outlays with uncertain near-term returns on investment.
 
 ### Technical Indicators
 The technical outlook for 1810.HK is increasingly bearish:

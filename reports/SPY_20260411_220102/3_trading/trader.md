@@ -5,10 +5,10 @@ The market is currently characterized by a "V-shaped recovery," with **SPY** tra
 
 ### Technical and Fundamental Rationale
 1.  **Trend Confirmation:** Fighting a confirmed uptrend based solely on valuation is historically risky. The "price follows earnings" axiom holds true here, as the largest components of the index are delivering scalable revenue growth that justifies a premium.
-2.  **Support Levels:** The strategic entry point identified in the 670¨C673 range aligns with the 50-day moving average, providing a favorable risk-to-reward ratio.
+2.  **Support Levels:** The strategic entry point identified in the 670â€“673 range aligns with the 50-day moving average, providing a favorable risk-to-reward ratio.
 3.  **Risk Mitigation:** A hard stop-loss below 660 (under the 200-day moving average) provides a clear exit strategy should the "exhaustion gap" theory manifest. This prevents a catastrophic loss if the macro environment shifts suddenly.
 
 ### Strategic Conclusion
-Valuation is rarely a precise timing tool for traders. The current price action of **SPY** demonstrates that liquidity and earnings momentum are the primary drivers. By initiating a position within the recommended 670¨C673 window, we align ourselves with institutional flow while maintaining a disciplined exit strategy to protect capital. The resilience shown in the face of macro headwinds is the most bullish signal available.
+Valuation is rarely a precise timing tool for traders. The current price action of **SPY** demonstrates that liquidity and earnings momentum are the primary drivers. By initiating a position within the recommended 670â€“673 window, we align ourselves with institutional flow while maintaining a disciplined exit strategy to protect capital. The resilience shown in the face of macro headwinds is the most bullish signal available.
 
 FINAL TRANSACTION PROPOSAL: **BUY**
