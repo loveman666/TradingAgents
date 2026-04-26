@@ -132,14 +132,34 @@ def get_vendor(category: str, method: str = None) -> str:
     # Fall back to category-level configuration
     return config.get("data_vendors", {}).get(category, "default")
 
+_NON_US_SUFFIXES = ('.HK', '.SH', '.SZ', '.T', '.TO', '.L', '.AX', '.NS', '.BO', '.KS', '.TW', '.SI', '.KL')
+
+def _extract_symbol(*args, **kwargs) -> str:
+    """Try to extract the ticker/symbol from tool call arguments."""
+    for key in ('symbol', 'ticker'):
+        if key in kwargs:
+            return str(kwargs[key]).upper()
+    if args:
+        return str(args[0]).upper()
+    return ""
+
 def route_to_vendor(method: str, *args, **kwargs):
-    """Route method calls to appropriate vendor implementation with fallback support."""
+    """Route method calls to appropriate vendor implementation with fallback support.
+
+    Non-US tickers (e.g. .HK, .T, .TO) automatically prefer yfinance because
+    Alpha Vantage has limited international coverage.
+    """
     category = get_category_for_method(method)
     vendor_config = get_vendor(category, method)
     primary_vendors = [v.strip() for v in vendor_config.split(',')]
 
     if method not in VENDOR_METHODS:
         raise ValueError(f"Method '{method}' not supported")
+
+    # Auto-detect non-US tickers and prefer yfinance
+    symbol = _extract_symbol(*args, **kwargs)
+    if any(symbol.endswith(suffix) for suffix in _NON_US_SUFFIXES):
+        primary_vendors = ['yfinance']
 
     # Build fallback chain: primary vendors first, then remaining available vendors
     all_available_vendors = list(VENDOR_METHODS[method].keys())
